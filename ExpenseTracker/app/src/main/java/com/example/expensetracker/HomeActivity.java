@@ -38,5 +38,15 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        Ibutton.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, IncomeActivity.class);
+                startActivity(intent);
+                Toast.makeText(HomeActivity.this, "Add your income here", Toast.LENGTH_LONG).show();
+            }
+        });
+
         }
     }

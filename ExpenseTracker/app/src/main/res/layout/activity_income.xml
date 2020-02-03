@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
 
-    tools:context=".ExpenseActivity">
+    tools:context=".IncomeActivity">
 
     <EditText
         android:id="@+id/expense"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:hint="Add expense"
+        android:hint="Add income"
         android:textSize="20dp"
         android:onClick="addExpense">
 
@@ -38,10 +38,10 @@
     <!--                android:layout_height="wrap_content" />-->
 
 
-<!--    <DatePicker-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center" />-->
+    <!--    <DatePicker-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center" />-->
 
     <Button
         android:id="@+id/button"
